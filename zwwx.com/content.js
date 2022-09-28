@@ -1,0 +1,1 @@
+exports=async function(a,b,c,d){const{parseContent:e}=await require("transcode/parse_content");return e(a,"div#content",{clientOptions:{...(d&&d.clientOptions)}}).then(a=>{if(1<a.length){const b=a.findIndex(a=>a.startsWith("\u7F51\u7AD9\u5185\u5BB9\u4E0D\u5BF9\uFF0C\u8BF7\u4E0B\u8F7D"));-1!==b&&a.splice(b,a.length-b);}return a})};

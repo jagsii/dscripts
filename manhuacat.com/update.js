@@ -1,0 +1,1 @@
+exports=async function(a,b){const{parseUpdate:c}=await require("transcode/parse_update");return c(`https://www.maofly.com/manga/${a}.html`,[/links-of-books num_div">\s*<li class="sort_div fixed-wd-num" data-sort="1">\s*<a[^>]* title="(?<name>[^"]+)"/,/<meta property="og:novel:update_time" content="(?<updateTime>[^"]*)"/],{clientOptions:{...(b&&b.clientOptions),"x-mobile":0}})};

@@ -1,0 +1,1 @@
+exports=async function(a,b){const{parseInfo:c}=await require("transcode/parse_info");return c("\u8D77\u821E\u4E2D\u6587",`https://m.75zw.com/xiaoshuo${a}.html`,"meta",{...b,introRegex:/<div class="intro">(?:<p>本书关键词[^<]*<\/p>)?<p>(?<intro>.+?)<\/p>/})};

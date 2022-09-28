@@ -1,0 +1,1 @@
+exports=async function(a,b){const{parseCatalog:c}=await require("transcode/parse_catalog"),d=`https://xs.23sk.com/files/article/html/${3<a.length?a.substring(0,a.length-3):"0"}/${a}/`;return c(d,"div#list>dl>dd",{clientOptions:{...(b&&b.clientOptions),encoding:"utf-8"}})};

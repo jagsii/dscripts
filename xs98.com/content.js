@@ -1,0 +1,1 @@
+exports=async function(a,b,c,d){const{parseContentPaginate:e}=await require("transcode/parse_content");return e(a=>`https://www.xs98.com/xs${b}/${c}${1===a?"":"_"+a}.html`,"div#content",{clientOptions:{...(d&&d.clientOptions)},hasNextFn:a=>null!=/<a href="[^"]*\d+_\d+\.html">下一页</.exec(a)})};

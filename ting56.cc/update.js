@@ -1,0 +1,1 @@
+exports=async function(a,b){const{parseUpdate:c}=await require("transcode/parse_update");return c(`https://m.ting56.cc/mp3/${a}.html`,[/更新时间：<span>(?<updateTime>[^<]+)</,/<li[^>]*>\s*<a[^>]+>(?<name>[^<]+)<\/a>\s*<\/li>\s*<\/div>/],{clientOptions:{...(b&&b.clientOptions),"x-mobile":1}})};

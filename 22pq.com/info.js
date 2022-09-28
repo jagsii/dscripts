@@ -1,0 +1,1 @@
+exports=async function(a,b){const{parseInfo:c}=await require("transcode/parse_info");return c("\u5B8C\u7F8E\u5C0F\u8BF4\u7F51",`https://m.umiwx.com/read/${a}.html`,"meta",{...b,introRegex:/<div class="intro clearfix">(?<intro>[^<]*)<\/div>/}).then(a=>(a.intro=a.intro.replace(/阅读[^\s]{1,20}最新章节请关注（[^）]+）/,""),a))};

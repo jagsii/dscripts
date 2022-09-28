@@ -1,0 +1,1 @@
+exports=async function(a,b){const{parseInfo:c}=await require("transcode/parse_info");return c("360\u5C0F\u8BF4",`https://m.360xs.com/book/${a}/`,"meta",{clientOptions:{...(b&&b.clientOptions),encoding:"gbk"},introRegex:/<p onclick="BookEx\.descSwitch\(this\);" style="display: none;">(?<intro>[^<]*)</})};

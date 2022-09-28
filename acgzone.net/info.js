@@ -1,0 +1,1 @@
+exports=async function(a,b){const{parseInfo:c}=await require("transcode/parse_sinmh_info");return c("ACG\u6F2B\u753B",`https://m.acgz1.com/manhua/${a}/`,{clientOptions:{...(b&&b.clientOptions)}})};

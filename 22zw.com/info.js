@@ -1,0 +1,1 @@
+exports=async function(a,b){const{parseInfo:c}=await require("transcode/parse_info"),d=`https://m.999xs.net/files/article/html/${a.idPrefix()}/${a}/`;return c("22\u4E2D\u6587",d,"block_txt2",{clientOptions:{...(b&&b.clientOptions)}})};

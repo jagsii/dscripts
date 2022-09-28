@@ -1,0 +1,1 @@
+exports=async function(a,b,c,d){const{parseContent:e}=await require("transcode/parse_content");return e(a,"div#content",{clientOptions:{...(d&&d.clientOptions)}}).then(a=>2<a.length&&a[a.length-2].startsWith("https://www.vipxs.la")?a.slice(0,a.length-2):a)};

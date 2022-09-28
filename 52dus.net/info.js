@@ -1,0 +1,1 @@
+exports=async function(a,b){const{parseInfo:c}=await require("transcode/parse_info");return c("\u7231\u8BFB\u5C0F\u8BF4",`https://www.x52dus.com/xx/${a}/`,"meta",{...b,introRegex:/<div class="bookintromore">(?<intro>[^<]*)<\/div>/})};

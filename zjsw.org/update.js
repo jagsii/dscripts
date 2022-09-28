@@ -1,0 +1,1 @@
+exports=async function(a,b){const{parseUpdate:c}=await require("transcode/parse_update");return c(`https://m.zjsw.org/book/${a}`,/最后更新：(?<updateTime>[^<]*)<[\S\s]+<ul class="vlist">\s*<li><a href="[^"]*">(?<name>[^<]+)</,{clientOptions:{...(b&&b.clientOptions)}})};

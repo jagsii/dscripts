@@ -1,0 +1,1 @@
+exports=async function(a,b){const{parseCatalog:c}=await require("transcode/parse_catalog");return c(`https://m.ting56.cc/mp3/${a}.html`,[/id="playlist">(?<fragment>(?:\s*<li[^>]*><a[^>]*>[^<]+<\/a><\/li>)+)/,/<a[^>]* href=['"](?<url>[^'"]+)['"][^>]*>(?<name>[^<]+)<\/a>/g],{clientOptions:{...(b&&b.clientOptions),"x-mobile":1}})};

@@ -1,0 +1,1 @@
+exports=async function(a,b){const{parseUpdate:c}=await require("transcode/parse_update");return c(`https://m.cjdushu.com/new_${a}.html`,"meta",{clientOptions:{...(b&&b.clientOptions)}})};

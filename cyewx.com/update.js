@@ -1,0 +1,1 @@
+exports=async function(a,b){const{parseUpdate:c}=await require("transcode/parse_update"),d=`https://wap.biquxs.la/${a.idPrefix()}/${a}/`;return c(d,"Synopsis",{clientOptions:{...(b&&b.clientOptions)},format:"yyyy-MM-dd"})};

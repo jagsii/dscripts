@@ -1,0 +1,1 @@
+exports=async function(a,b,c,d){const{parseContent:e}=await require("transcode/parse_content");return e(a,"div#content",{clientOptions:{...(d&&d.clientOptions)},preprocess:a=>a.replace(/＾笔趣阁(?:<br\/>|&nbsp;)*[wWｗＷmMｍＭ][^<]+[cCｃＣ][oOｏＯ][mMｍＭ]/,"")})};

@@ -1,0 +1,1 @@
+exports=async function(a,b){const{parseCatalog:c}=await require("transcode/parse_catalog"),d=`http://www.klsxs.com/info/${a.idPrefix()}/${a}/index.html`;return c(d,[/全文阅读<\/h3><div class="border-line"><\/div><\/li>(?<fragment>(?:\s*<li>.+)+)/,/href="(?<url>[^"]+)"[^>]*>(?<name>[^<]+)</g],{clientOptions:{...(b&&b.clientOptions)}})};

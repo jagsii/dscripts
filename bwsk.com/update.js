@@ -1,0 +1,1 @@
+exports=async function(a,b){const{parseUpdate:c}=await require("transcode/parse_update");return c(`http://www.bwsk.com/${a}/index.html`,a=>{const b=Array.from(a.matchAll(/<TD[^>]*>(?:\s*<center>)?\s*<A[^>]+>(?<name>[^<]+)<\//ig));return {name:0<b.length?b[b.length-1][1]:""}},{clientOptions:{...(b&&b.clientOptions),encoding:"gbk"}})};

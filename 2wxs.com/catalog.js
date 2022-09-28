@@ -1,0 +1,1 @@
+exports=async function(a,b){const{parseCatalog:c}=await require("transcode/parse_catalog");return c(`http://m.2wxs.net/xstxt/${a}/`,[/<div id="chapterlist"[^>]*>(?<fragment>(?:\s*<p[^>]*>\s*<a[^>]*>[^<]*<\/a>\s*<\/p>)*)/,/<p>\s*<a href=["'](?<url>[^"']*)['"]>(?<name>[^<]*)<\/a>/g],{clientOptions:{...(b&&b.clientOptions),encoding:"utf-8","x-mobile":1}})};

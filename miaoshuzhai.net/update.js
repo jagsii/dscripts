@@ -1,0 +1,1 @@
+exports=async function(a,b){const{parseUpdate:c}=await require("transcode/parse_update"),{prepareCookie:d}=await require("book/miaoshuzhai.net/common");return c(`https://m.doucehua.com/xs/${a}.html`,[/更新：(?<updateTime>[^<]+)<\//,/class="directoryArea">\s*<p><a[^>]*>(?<name>[^<]+)</],{httpOptions:d(),clientOptions:{...(b&&b.clientOptions)}})};

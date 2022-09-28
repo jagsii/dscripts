@@ -1,0 +1,1 @@
+exports=async function(a,b){const{parseUpdate:c}=await require("transcode/parse_update"),d=`https://m.xcmfu.com/${a.idPrefix()}/${a}.html`;return c(d,"meta",{clientOptions:{...(b&&b.clientOptions)}})};

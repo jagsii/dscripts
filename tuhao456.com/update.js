@@ -1,0 +1,1 @@
+exports=async function(a,b){const{parseUpdate:c}=await require("transcode/parse_update");return c(`https://www.kawazhuyy.com/manhua/${a}/`,/>最新话：<a [^>]+>(?<name>[^<>]+)<\/a><\/p>\s+<p>更新时间：<font[^<>]*>(?<updateTime>[^<>]+)</,{clientOptions:{...(b&&b.clientOptions),encoding:"utf-8","x-mobile":0},format:"MM-dd HH:mm"})};

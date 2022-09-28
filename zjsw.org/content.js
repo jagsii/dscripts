@@ -1,0 +1,1 @@
+exports=async function(a,b,c,d){const{parseContent:e}=await require("transcode/parse_content");return e(a,/<div [^>]*id="content"[^>]*>\s*(?<fragment>(?:\s*<p[^>]*>[^<]*<\/p>)+)/,{clientOptions:{...(d&&d.clientOptions)}})};

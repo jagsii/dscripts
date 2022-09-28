@@ -1,0 +1,1 @@
+exports=async function(a,b){const{parseUpdate:c}=await require("transcode/parse_update");return c(`https://m.ting55.com/book/${a}`,/>时间：(?<updateTime>[^<]+)<\/p>[\S\s]+?>(?<name>[^<]+)<\/a>\s*<\/div>\s*<\/div>\s*<\/section/,{clientOptions:{...(b&&b.clientOptions),encoding:"utf-8","x-mobile":1}})};

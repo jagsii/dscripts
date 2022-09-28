@@ -1,0 +1,1 @@
+exports=async function(a,b){const{parseInfo:c}=await require("transcode/parse_info");return c("\u7B14\u8DA3\u9601WU",`http://m.biqugewu.net/book/${a}/`,"block_txt2",{clientOptions:{...(b&&b.clientOptions),encoding:"gbk"}})};

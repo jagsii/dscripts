@@ -1,0 +1,1 @@
+exports=async function(a,b){const{parseCatalog:c}=await require("transcode/parse_catalog");return c(`http://www.pinshu5.com/${a}/`,"div#list>dl>(dt>b,dd)",{clientOptions:{...(b&&b.clientOptions)}})};

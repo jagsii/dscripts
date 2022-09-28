@@ -1,0 +1,1 @@
+exports=async function(a,b,c,d){const e={...(d&&d.clientOptions),encoding:"utf-8","x-mobile":1};stat("request");const{send:f}=require("http");let g=await f(a,e);stat("request"),assertOK(g);let h=g.body;const i=h.subRegex(/var now\s*=\s*unescape\(["']([^'"]+)["']\)/);return i?{url:unescape(i)}:null};

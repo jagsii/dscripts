@@ -1,0 +1,1 @@
+exports=async function(a,b){const{parseCatalog:c}=await require("transcode/parse_catalog");return c(`https://m.bookzx.cc/htm/${a}/`,[/<ul>\s*<dl>(?<fragment>(?:\s*<dd>\s*<a[^>]*>[^<]*<\/a>\s*<\/dd>)+)/,/<a[^>]*href=["'](?<url>[^"']+)["'][^>]*>(?<name>[^<]+)</g],{clientOptions:{...(b&&b.clientOptions),encoding:"gbk","x-mobile":1}})};

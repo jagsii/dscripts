@@ -1,0 +1,1 @@
+exports=async function(a,b,c,d){const{parseContent:e}=await require("transcode/parse_content");return e(a,"div#content",{clientOptions:{...(d&&d.clientOptions),encoding:"gbk"}}).then(a=>a.map(a=>a.replace(/咪咪阅读/,"\u5927\u529B\u8FFD\u4E66").replace(/mimiread\.com/,"damnread.com")))};

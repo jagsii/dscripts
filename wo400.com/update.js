@@ -1,0 +1,1 @@
+exports=async function(a,b){const{parseUpdate:c}=await require("transcode/parse_update");return c(`http://m.wo400.com/m/${a}/`,"meta",{clientOptions:{...(b&&b.clientOptions),encoding:"gbk"}})};

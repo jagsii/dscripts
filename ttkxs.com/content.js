@@ -1,0 +1,1 @@
+exports=async function(a,b,c,d){const{parseContent:e}=await require("transcode/parse_content");return e(a,"div#content",{clientOptions:{...(d&&d.clientOptions)}}).then(a=>{const b=/喜欢.+请大家收藏：.+天天看小说更新速度最快。/;return a.first=a.first.replace(b,""),a.last=a.last.replace(b,""),a})};

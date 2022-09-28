@@ -1,0 +1,1 @@
+exports=async function(a,b){const{parseInfo:c}=await require("transcode/parse_info"),d=`http://www.bshuku.com/book/info/${a.idPrefix()}/${a}.html`;return c("88106",d,"meta",{clientOptions:{...(b&&b.clientOptions),"x-mobile":0},introRegex:/<div class="tabvalue"[^>]*>\s*<div[^>]*>(?<intro>[^<]*)</})};

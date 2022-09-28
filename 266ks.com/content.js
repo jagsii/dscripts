@@ -1,0 +1,1 @@
+exports=async function(a,b,c,d){const{parseContentPaginate:e}=await require("transcode/parse_content"),f=3<b.length?b.substring(0,b.length-3):"0";return e(a=>`http://www.266ks.com/${f}_${b}/${c}_${a}.html`,"div#content",{...d,hasNextFn:a=>null!=/<a href="[^"]+_\d+\.html">下一页<\/a>/.exec(a)})};

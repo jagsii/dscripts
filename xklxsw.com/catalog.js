@@ -1,0 +1,1 @@
+exports=async function(a,b){const{parseCatalog:c}=await require("transcode/parse_catalog");return c(`https://www.xklxsw.com/book/${a}/`,[/章节目录<\/h2>(?<fragment>(?:\s*<span[^>]*>\s*<a[^>]*>[^<]*<\/a>\s*<\/span>)+)/,/href="(?<url>[^"]+)"[^>]*>(?<name>[^<]+)/g],{clientOptions:{...(b&&b.clientOptions),encoding:"gbk"}})};

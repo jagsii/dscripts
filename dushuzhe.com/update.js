@@ -1,0 +1,1 @@
+exports=async function(a,b){const{parseUpdate:c}=await require("transcode/parse_update");return c(`https://m.dushuzhe.cc/book/${a}/`,/更新：(?<updateTime>[^<]+)<\/span><\/dd>\s*<dd><span style="width: 100%;">最新：<a[^>]*>(?<name>[^<]+)</,{clientOptions:{...(b&&b.clientOptions),encoding:"gbk"}})};

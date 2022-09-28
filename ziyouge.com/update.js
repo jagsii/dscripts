@@ -1,0 +1,1 @@
+exports=async function(a,b){const{parseUpdate:c}=await require("transcode/parse_update");return c(`https://m.ziyouge.top/novel/${a}`,/am-list-striped">\s*<li[^>]*>\s*<a[^>]*>(?<name>[^<]+)/,{clientOptions:{...(b&&b.clientOptions)}})};

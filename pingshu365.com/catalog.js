@@ -1,0 +1,1 @@
+exports=async function(a,b){const{parseCatalog:c}=await require("transcode/parse_catalog");return c(`https://m.pingshu365.com/lm/${a}.html`,[/id="playlist">\s*<ul>(?<fragment>(?:\s*<li>\s*<a[^>]*>[^<]*<\/a>\s*<\/li>)+)/,/<a[^>]*href="(?<url>[^"]+)"[^>]*>(?<name>[^<]*)</g],{clientOptions:{...(b&&b.clientOptions),"x-mobile":1,encoding:"gbk"}})};

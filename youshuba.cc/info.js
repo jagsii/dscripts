@@ -1,0 +1,1 @@
+exports=async function(a,b){const{parseInfo:c}=await require("transcode/parse_info"),d=`https://m.youshu8.cc/ks/${a.idPrefix()}/${a}/`;return c("\u6E38\u4E66\u7F51",d,"meta",{clientOptions:{...(b&&b.clientOptions),encoding:"gbk"}}).then(a=>(a.intro="",a))};

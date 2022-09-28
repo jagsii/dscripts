@@ -1,0 +1,1 @@
+exports=async function(a,b){const{parseCatalog:c}=await require("transcode/parse_catalog");return c(`https://www.x52dus.com/xx/${a}/`,[/<mip-showmore[^>]*>(?<fragment>(?:\s*<dd>\s*<a[^>]*>[^<]*<\/a>\s*<\/dd>\s*)+)/,/<a href="(?<url>[^"]+)"[^>]*>(?<name>[^<]+)<\/a>/g],b)};

@@ -1,0 +1,1 @@
+exports=async function(a,b){const{parseUpdate:c}=await require("transcode/parse_update"),d=`https://w.xread8.com/dushu/${a.idPrefix()}/${a}/`;return c(d,/更新：(?<updateTime>[^<]+)<\/li>[\S\s]+?<div[^>]* class="directoryArea">\s*<p><a[^>]*>(?<name>[^<]+)</,{clientOptions:{...(b&&b.clientOptions)}})};

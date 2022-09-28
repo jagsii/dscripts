@@ -1,0 +1,1 @@
+exports=async function(a,b){const{parseUpdate:c}=await require("transcode/parse_update");return c(`https://m.dmzj.com/info/${a}.html`,[/<span class="date">(?<updateTime>[^<]+)</,/,"data":\[\{"id":\d+,\s*"comic_id":\d+,"chapter_name":\s*(?<name>"[^"]+")/],{clientOptions:{...(b&&b.clientOptions)},format:"yyyy-MM-dd HH:mm"}).then(a=>(a.name=JSON.parse(a.name),a))};

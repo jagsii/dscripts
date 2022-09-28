@@ -1,0 +1,1 @@
+exports=async function(a,b){const{parseInfo:c}=await require("transcode/parse_info"),d=`https://m.kayege.net/${a.idPrefix()}_${a}/`;return c("\u5361\u591C\u9601",d,"Synopsis",{clientOptions:{...(b&&b.clientOptions)}})};

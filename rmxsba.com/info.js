@@ -1,0 +1,1 @@
+exports=async function(a,b){const{parseInfo:c}=await require("transcode/parse_info");return c("\u70ED\u95E8\u5C0F\u8BF4\u7F51",`https://m.rmxsba.com/shu/${a}.html`,"meta",{clientOptions:{...(b&&b.clientOptions)},introRegex:".intro>p"})};

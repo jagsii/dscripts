@@ -1,0 +1,1 @@
+exports=async function(a,b){const{parseCatalog:c}=await require("transcode/parse_catalog"),d=`http://www.paoshu8.com/${a.idPrefix()}_${a}/`;return c(d,[/<dt>《[^》]+》正文<\/dt>(?<fragment>(?:\s*<dd><a[^>]*>[^<]*<\/a><\/dd>)+)/,/<a href="(?<url>[^"]+)">(?<name>[^<]+)</g],{clientOptions:{...(b&&b.clientOptions)}})};

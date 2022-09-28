@@ -1,0 +1,1 @@
+exports=async function(a,b){const{parseInfo:c}=await require("transcode/parse_info");return c("\u4E66\u6D77\u9601",`https://m.shuhaige.net/shu_${a}.html`,"meta",{clientOptions:{...(b&&b.clientOptions)}}).then(a=>(a.intro=a.intro.replace(/.+观看小说:/,""),a))};

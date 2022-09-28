@@ -1,0 +1,1 @@
+exports=async function(a,b){const{parseUpdate:c}=await require("transcode/parse_update"),d=`https://m.rizhaoxs.com/b/${a.idPrefix()}/${a}/`;return c(d,/最近更新：<\/span><a[^<]*>(?<name>[^<]+)<\/a><\/p>\s*<p class="time"><span>更新时间：<\/span>(?<updateTime>[^<]*)</,{clientOptions:{...(b&&b.clientOptions),encoding:"gbk"},format:"yyyy-MM-dd HH:mm"})};

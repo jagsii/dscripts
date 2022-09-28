@@ -1,0 +1,1 @@
+exports=async function(a,b){const{parseUpdate:c}=await require("transcode/parse_update");return c(`http://m.kandashuw.com/book/${a}/`,/最后更新：<a href="[^"]+">\s*(?<name>[^<]+)\s*<\/a>（(?<updateTime>[^）]*)）<\/div>/,{clientOptions:{...(b&&b.clientOptions),encoding:"gbk"},format:"yyyy-MM-dd HH:mm"})};

@@ -1,0 +1,1 @@
+exports=async function(a,b){const{parseInfo:c}=await require("transcode/parse_info");return c("\u5927\u590F\u4E2D\u6587\u7F51",`http://m.daxiabook.com/shu/${a}.html`,"meta",{clientOptions:{...(b&&b.clientOptions)}}).then(a=>{const b=a.intro.indexOf("\u89C2\u770B\u5C0F\u8BF4:");return -1!==b&&(a.intro=a.intro.substring(b+5).trim()),a})};

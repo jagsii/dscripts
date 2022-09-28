@@ -1,0 +1,1 @@
+exports=async function(a,b){const{parseInfo:c}=await require("transcode/parse_info");return c("\u770B\u5927\u4E66",`http://m.kandashuw.com/book/${a}/`,"meta",{clientOptions:{...(b&&b.clientOptions),encoding:"gbk"},introRegex:/-intro">\s*<div id="info">(?<intro>([^<]+|<br ?\/?>)*)/}).then(a=>("http://m.kandashuw.com"===a.cover&&(a.cover=""),a))};

@@ -1,0 +1,1 @@
+exports=async function(a,b){const{parseUpdate:c}=await require("transcode/parse_update");return c(`https://3w.tiantingfm.com/${a}/`,[/<p><span>更新：(?<updateTime>[^<]+)/,/class="lv-bf-list">(?:\s*<a[^>]+>[^<]*(?:<span[^>]*>\s*<\/span>)?\s*<\/a>)*\s*<a[^>]+>(?<name>[^<]+)(?:<span[^>]*>\s*<\/span>)?\s*<\/a>\s*<\//],{clientOptions:{...(b&&b.clientOptions),"x-mobile":0}})};

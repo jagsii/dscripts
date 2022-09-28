@@ -1,0 +1,1 @@
+exports=async function(a,b){const{parseCatalog:c}=await require("transcode/parse_catalog");return c(`http://www.kenshuzw.com/xiaoshuo/${a}/0/`,[/ul class="clearfix chapter-list">(?<fragment>(?:\s*<li>\s*<span>\s*<a[^>]*>[^<]*<\/a>\s*<\/span>\s*<\/li>)+)/,/<a href="(?<url>[^"]+)"[^>]*>(?<name>[^<]+)/g],{clientOptions:{...(b&&b.clientOptions)},idRegex:/(?<id>\d+)\/?$/})};

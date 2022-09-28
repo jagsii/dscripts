@@ -1,0 +1,1 @@
+exports=async function(a,b){const{parseCatalog:c}=await require("transcode/parse_catalog");return c(`https://www.2100book.com/ebook/${a}.html`,[/<ul class="list-group list-charts">(?<fragment>(?:\s*<li[^>]*>\s*<a[^>]*>[^<]*<\/a>\s*<\/li>)+)/,/<a[^>]* href="(?<url>[^"]+)"[^>]*>(?<name>[^<]+)</g],{clientOptions:{...(b&&b.clientOptions)},idRegex:/\/(?<id>[a-zA-Z\d]+)\.html/})};

@@ -1,0 +1,1 @@
+exports=async function(a,b){const{parseUpdate:c}=await require("transcode/parse_update");return c(`https://m.ysts8.net/m_h/${a}.html`,/<div>更新时间：<span>(?<updateTime>[^<]+)<[\S\s]+<li>\s*<a href="[^"]+"[^>]*>(?<name>[^<]+)<\/a>\s*<\/li>\s*<\/ul>\s*<\/ul>/,{clientOptions:{...(b&&b.clientOptions)},format:"yyyy/M/d"})};

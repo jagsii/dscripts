@@ -1,0 +1,1 @@
+exports=async function(a,b){const{parseInfo:c}=await require("transcode/parse_info");return c("\u6F2B\u753B\u76AE",`https://www.manhuapi.net/manhua/${a}.html`,"meta",{clientOptions:{...(b&&b.clientOptions),encoding:"utf-8","x-mobile":0}})};

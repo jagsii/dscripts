@@ -1,0 +1,1 @@
+exports=async function(a,b){const{parseCatalog:c}=await require("transcode/parse_catalog");return c(`https://www.dingdian6.com/book${a}/`,"div#list>dl>(dt,dd)",{clientOptions:{...(b&&b.clientOptions)}})};

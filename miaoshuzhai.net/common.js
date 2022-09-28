@@ -1,0 +1,1 @@
+function prepareCookie(){const a=new Date().getTime().toString().substring(0,10);return {headers:{Cookie:`Hm_lvt_90de35bd42bc04632cbbab7ea0c13fae=${a}; Hm_lpvt_90de35bd42bc04632cbbab7ea0c13fae=${a}; Hm_lvt_db95727dacf74baeb736301903d15df0=${a}; Hm_lpvt_db95727dacf74baeb736301903d15df0=${a}`}}}exports.prepareCookie=prepareCookie;

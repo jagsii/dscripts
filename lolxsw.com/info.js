@@ -1,0 +1,1 @@
+exports=async function(a,b){const{parseInfo:c}=await require("transcode/parse_info");return c("LOL\u5C0F\u8BF4\u7F51",`https://m.lolxsw.com/${a}/`,"meta",{clientOptions:{...(b&&b.clientOptions)}}).then(a=>(a.intro=a.intro.replace(/.+欢迎光临\([^\)]+\)观看小说:/,""),a))};

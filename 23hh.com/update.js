@@ -1,0 +1,1 @@
+exports=async function(a,b){const{parseUpdate:c}=await require("transcode/parse_update"),d=`https://m.23hh.com/book/${a.idPrefix()}/${a}/`;return c(d,/<dd>\s*<span style="width: 100%;">更新：(?<updateTime>[^<]+)<\/span>\s*<\/dd>\s*<dd>\s*<span style="width: 100%;">最新：<a[^>]*>(?<name>[^<]+)</,{clientOptions:{...(b&&b.clientOptions),encoding:"gbk"}})};

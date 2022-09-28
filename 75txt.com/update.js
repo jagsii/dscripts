@@ -1,0 +1,1 @@
+exports=async function(a,b){const{parseUpdate:c}=await require("transcode/parse_update");return c(`https://m.75txt.com/xs_${a}.html`,"meta",{...b,format:"yyyy-MM-dd HH:mm"})};

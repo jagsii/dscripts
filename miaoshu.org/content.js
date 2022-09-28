@@ -1,0 +1,1 @@
+exports=async function(a,b,c,d){const{parseContent:e}=await require("transcode/parse_content");return e(a,"div#content",{clientOptions:{...(d&&d.clientOptions)},preprocess:a=>a.replace(/<p>[^<]*天才一秒记住本站地址：[^<]*最快更新！无广告！\s*(<br ?\/?>)*\s*<\/p>/,"")}).then(a=>(2<a.length&&(a[a.length-2]=a[a.length-2].replace("footer()",""),a.last=a.last.replace("ark()","")),a))};

@@ -1,0 +1,1 @@
+exports=async function(a,b){const{parseUpdate:c}=await require("transcode/parse_update");return c(`https://m.bookzx.cc/htm/${a}/`,/最新：<a[^>]*>(?<name>[^>]+)<\/a>\s*<\/div>/,{clientOptions:{...(b&&b.clientOptions),encoding:"gbk"}})};

@@ -1,0 +1,1 @@
+exports=async function(a,b){const{parseInfo:c}=await require("transcode/parse_info");return c("\u601D\u8DEF\u5BA2",`https://m.silukew.com/ny${a}/`,"block_txt2",{clientOptions:{...(b&&b.clientOptions)}})};

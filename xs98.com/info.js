@@ -1,0 +1,1 @@
+exports=async function(a,b){const{parseInfo:c}=await require("transcode/parse_info");return c("\u5C0F\u8BF4\u9152\u5427",`https://www.xs98.com/xs${a}/`,"meta",{clientOptions:{...(b&&b.clientOptions)}})};

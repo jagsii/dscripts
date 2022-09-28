@@ -1,0 +1,1 @@
+exports=async function(a,b){const{parseCatalog:c}=await require("transcode/parse_catalog");return c(`https://m.ysts8.net/m_h/${a}.html`,[/id="playlist">\s*<ul>\s*<ul>(?<fragment>(?:<li>\s*<a[^>]*>[^<]*<\/a>\s*<\/li>)+)/,/href=['"](?<url>[^'"]+)['"][^>]*>(?<name>[^<\]]+)/g],{clientOptions:{...(b&&b.clientOptions),"x-mobile":1}})};

@@ -1,0 +1,1 @@
+exports=async function(a,b){const{parseUpdate:c}=await require("transcode/parse_update");return c(`https://m.ishuyin.com/album-${a}.html`,[/<meta property="og:novel:update_time" content="(?<updateTime>[^"]*)"\s*\/>/,/<span class="text">(?<name>[^<]+)<\/span><\/a><\/h3><\/li>\s*<\/ul>/],{clientOptions:{...(b&&b.clientOptions)}})};

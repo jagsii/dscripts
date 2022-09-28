@@ -1,0 +1,1 @@
+exports=async function(a,b){const{parseInfo:c}=await require("transcode/parse_info");return c("\u5543\u4E66\u9601",`http://www.kenshuzw.com/xiaoshuo/${a}/`,"meta",{clientOptions:{...(b&&b.clientOptions),"x-mobile":0}}).then(a=>(a.intro=a.intro.replace(/《[^》]+》是一部[^。]+。更多好看的[^。]+，请关注[^。]+。/,""),a))};

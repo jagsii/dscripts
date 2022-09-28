@@ -1,0 +1,1 @@
+exports=async function(a,b){const{parseInfo:c}=await require("transcode/parse_info");return c("\u516B\u4E00\u4E2D\u6587\u7F51",`https://m.81book.com/book/${a}/`,"block_txt2",{clientOptions:{...(b&&b.clientOptions)}})};

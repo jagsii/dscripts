@@ -1,0 +1,1 @@
+exports=async function(a,b,c,d){const{parseContent:e}=await require("transcode/parse_content");return e(a,/<script>read2\(\);<\/script>(?<fragment>(?:[^<]+|<br ?\/?>)+)/,{clientOptions:{...(d&&d.clientOptions)}}).then(a=>(a.first=a.first.replace("(\u8BFB\u8DA3 www.duqu.net)",""),a.last=a.last.replace("\u8BFB\u8DA3 www.duqu.net",""),a))};

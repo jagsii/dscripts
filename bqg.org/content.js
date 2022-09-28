@@ -1,0 +1,1 @@
+exports=async function(a,b,c,d){const{parseContent:e}=await require("transcode/parse_content");return e(a,"div#content",{clientOptions:{...(d&&d.clientOptions),encoding:"gbk"}}).then(a=>a.filter(a=>!a.startsWith("\u7B14\u8DA3\u9601 www.bqg.org")))};

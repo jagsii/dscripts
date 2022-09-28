@@ -1,0 +1,1 @@
+exports=async function(a,b){const{parseInfo:c}=await require("transcode/parse_info");return c("\u9605\u8BFB\u5E93",`http://m.yuedsk.com/book/${a}/`,"meta",{clientOptions:{...(b&&b.clientOptions)}})};

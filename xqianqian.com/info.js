@@ -1,0 +1,1 @@
+exports=async function(a,b){const{parseInfo:c}=await require("transcode/parse_info"),d=`https://www.xqianqian.com/${a.idPrefix()}/${a}/`;return c("\u5343\u5343\u5C0F\u8BF4",d,"meta",{clientOptions:{...(b&&b.clientOptions),"x-mobile":0}})};

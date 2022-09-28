@@ -1,0 +1,1 @@
+exports=async function(a,b){const{parseCatalogPaginate:c}=await require("transcode/parse_catalog"),d={...(b&&b.clientOptions),encoding:"gbk"};return c(b=>`https://www.17zw.com/book/${a}/${1===b?"":"index_"+b+".html"}`,"div#list>dl>dd",{...b,clientOptions:d,pageSize:60,totalPagesRegex:/<option value="\/book\/\d+\/index_(?<totalPages>\d+)\.html">[^<]+<\/option>\s*<\/select>/})};

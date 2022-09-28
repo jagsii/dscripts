@@ -1,0 +1,1 @@
+exports=async function(a,b){const{parseInfo:c}=await require("transcode/parse_info");return c("400\u5C0F\u8BF4\u7F51",`http://m.wo400.com/m/${a}/`,"meta",{clientOptions:{...(b&&b.clientOptions),encoding:"gbk"}})};

@@ -1,0 +1,1 @@
+exports=async function(a,b){const{parseUpdate:c}=await require("transcode/parse_update");return c(`http://m.quanben.me/ls-${a}/`,/更新：(?<updateTime>[^<]+)<\/p>\s*<p>最新：<a[^>]*>(?<name>[^<]+)</,{clientOptions:{...(b&&b.clientOptions)}})};

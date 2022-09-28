@@ -1,0 +1,1 @@
+exports=async function(a,b){const{parseCatalog:c}=await require("transcode/parse_catalog"),d=a.idPrefix();return c(`https://www.moyandushu.com/0/${d}/${a}/`,[/全文阅读\s*<em>\(共\d+章\)<\/em><\/dt>(?<fragment>(?:\s*<dd>\s*<a[^>]*>[^<]*<\/a>\s*<\/dd>)+)/,/href="(?<url>[^"]+)"[^>]*>(?<name>[^<]+)/g],{clientOptions:{...(b&&b.clientOptions)}})};

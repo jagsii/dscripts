@@ -1,0 +1,1 @@
+exports=async function(a,b){const{parseUpdate:c}=await require("transcode/parse_update");return c(`https://www.aabook.cc/m/book-${a}.html`,/<span class="time">(?<updateTime>[^<]+)<\/span>\s*<a [^>]+>(?<name>[^<]+)</,{clientOptions:{...(b&&b.clientOptions)},format:"yyyy/M/d HH:mm"})};

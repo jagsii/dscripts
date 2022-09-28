@@ -1,0 +1,1 @@
+exports=async function(a,b){const{parseInfo:c}=await require("transcode/parse_info"),{prepareCookie:d}=await require("book/miaoshuzhai.net/common");return c("\u5999\u4E66\u658B",`https://m.doucehua.com/xs/${a}.html`,"Synopsis",{httpOptions:d(),clientOptions:{...(b&&b.clientOptions)}}).then(a=>(a.intro=a.intro.replace(/各位书友要是觉得《[^》]+》还不错的话.+/,""),a))};

@@ -1,0 +1,1 @@
+exports=async function(a,b,c,d){const{parseContent:e}=await require("transcode/parse_content");return e(`https://www.kanshuge.org/${b.idPrefix()}/${b}/${c}.html`,"div#content",{clientOptions:{...(d&&d.clientOptions),encoding:"gbk"}})};

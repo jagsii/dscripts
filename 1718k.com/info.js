@@ -1,0 +1,1 @@
+exports=async function(a,b){const{parseInfo:c}=await require("transcode/parse_info"),d=`https://www.1718k.com/files/article/html/${a.idPrefix()}/${a}/`;return c("1718K\u6587\u5B66",d,"meta",{clientOptions:{...(b&&b.clientOptions)},introRegex:/<div id="bookintro"[^>]*>\s*<p>(?<intro>[^<]*)</})};

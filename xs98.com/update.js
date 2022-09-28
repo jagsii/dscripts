@@ -1,0 +1,1 @@
+exports=async function(a,b){const{parseUpdate:c}=await require("transcode/parse_update");return c(`https://www.xs98.com/xs${a}/`,"meta",{clientOptions:{...(b&&b.clientOptions)},format:"yyyy/MM/d H:mm:ss"})};

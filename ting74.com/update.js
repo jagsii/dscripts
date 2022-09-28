@@ -1,0 +1,1 @@
+exports=async function(a,b){const{parseUpdate:c}=await require("transcode/parse_update");return c(`http://m.ting74.com/tingshu/${a}/`,[/<div class="book-rand-a">[\s连载中完结]*(?<updateTime>[\d\/ :]+)\s*</,/<li>\s*<a href="[^"]+"[^>]*>(?<name>[^<]+)<\/a>\s*<\/li>\s*<\/ul>/],{clientOptions:{...(b&&b.clientOptions)}})};

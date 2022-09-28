@@ -1,0 +1,1 @@
+exports=async function(a,b){const{parseInfo:c}=await require("transcode/parse_info");return c("\u5999\u4E66\u7F51",`https://m.miaoshu.org/read/${a}/`,"meta",{clientOptions:{...(b&&b.clientOptions)},postprocess:(a,b)=>{b.serial=-1===a.indexOf(">\u72B6\u6001\uFF1A\u5168\u672C<")?0:1,b.intro=b.intro.replace(/.+》全文简介：/,"");}})};

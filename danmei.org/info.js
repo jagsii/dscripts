@@ -1,0 +1,1 @@
+exports=async function(a,b){const{parseInfo:c}=await require("transcode/parse_info");return c("\u803D\u7F8E\u5C0F\u8BF4\u7F51",`https://wap.danmei.la/wapbook/${a}.html`,"meta",{clientOptions:{...(b&&b.clientOptions),encoding:"gbk"},introRegex:".intro_info"}).then(a=>(a.intro=a.intro.replace(/本书最新推荐地址：.+/,"").trim(),a))};

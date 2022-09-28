@@ -1,0 +1,1 @@
+exports=async function(a,b,c,d){const{parseContent:e}=await require("transcode/parse_content"),{redirectCookiesRetry:f}=await require("transcode/utils");return e(a,/id="htmlContent">(?:\s*<p[^>]*>.+<\/p>)?(?<fragment>(?:[^<]+|<br ?\/?>)+)/,{httpOptions:{followRedirects:!1},clientOptions:{...(d&&d.clientOptions),encoding:"gbk"},retry:f})};

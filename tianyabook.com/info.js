@@ -1,0 +1,1 @@
+exports=async function(a,b){const{parseInfo:c}=await require("transcode/parse_info"),{redirectCookiesRetry:d}=await require("transcode/utils");return c("\u5929\u6DAF\u5728\u7EBF\u4E66\u5E93",`https://www.tianyabook.com/shu/${a}.html`,"meta",{httpOptions:{followRedirects:!1},clientOptions:{...(b&&b.clientOptions),encoding:"gbk"},retry:d})};

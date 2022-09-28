@@ -1,0 +1,1 @@
+exports=async function(a,b){const{parseInfo:c}=await require("transcode/parse_info");return c("\u6C42\u4E66\u5E2E",`https://www.qiushubang.com/${a}/`,"meta",{clientOptions:{...(b&&b.clientOptions),encoding:"gbk","x-mobile":1}})};

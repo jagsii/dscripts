@@ -1,0 +1,1 @@
+exports=async function(a,b){const{parseUpdate:c}=await require("transcode/parse_update");return c(`https://www.leting8.com/so/${a}.html`,/<li id="\d+">\s*<a[^>]+>(?<name>[^<]+)<\/a>\s*<\/li>\s*<\/ul>/,{clientOptions:{...(b&&b.clientOptions),"x-mobile":1}})};

@@ -1,0 +1,1 @@
+exports=async function(a,b){const{parseCatalog:c}=await require("transcode/parse_catalog"),d=`http://www.biqugewu.net/${a.idPrefix()}_${a}/`;return c(d,"div#list>dl>dd",{clientOptions:{...(b&&b.clientOptions),encoding:"gbk"},preprocess:a=>a.replace(/<div style="[^>]+><table id="ad[^>]+><tr>(\s*<td id="ad.+<\/td>)+\s*<\/tr>\s*<\/table>\s*<\/div>/,"")})};

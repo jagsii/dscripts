@@ -1,0 +1,1 @@
+exports=async function(a,b,c,d){const{parseContent:e}=await require("transcode/parse_content");return e(a,/<div id="htmlContent"[^>]*>(?<fragment>.*?)<\/div>/,{clientOptions:{...(d&&d.clientOptions),encoding:"gbk"}}).then(a=>a.filter(a=>!/67书吧.+最快更新|一秒记住.+无弹窗免费阅读！/.test(a)))};

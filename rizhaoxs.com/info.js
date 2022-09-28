@@ -1,0 +1,1 @@
+exports=async function(a,b){const{parseInfo:c}=await require("transcode/parse_info"),d=`https://m.rizhaoxs.com/b/${a.idPrefix()}/${a}/`;return c("\u65E5\u7167\u5C0F\u8BF4\u7F51",d,"meta",{clientOptions:{...(b&&b.clientOptions),encoding:"gbk"},introRegex:/<span class="book-intro">(?<intro>[^<]+)</})};

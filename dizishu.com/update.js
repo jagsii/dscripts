@@ -1,0 +1,1 @@
+exports=async function(a,b){const{parseUpdate:c}=await require("transcode/parse_update");return c(`https://m.dizishu.com/b/${a}/`,/<p class="update">\s*<span>最近更新：<\/span>\s*<a[^>]+>\s*(?<name>[^<]*)\s*<\/a>\s*<\/p>\s*<p class="time">\s*<span>更新时间：<\/span>\s*(?<updateTime>[^<]+)\s*<\/p>/,{clientOptions:{...(b&&b.clientOptions),encoding:"gbk"}})};

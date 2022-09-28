@@ -1,0 +1,1 @@
+exports=async function(a,b){const{parseCatalog:c}=await require("transcode/parse_catalog");return c(`https://www.kxs7.net/du/${a}/`,[/<h3>正文<\/h3>\s*<ul class="cf">(?<fragment>(?:\s*<li>\s*<a[^>]*>[^<]*<\/a>\s*<\/li>)+)/,/<a href="(?<url>[^"]+)">(?<name>[^<]+)</g],{clientOptions:{...(b&&b.clientOptions),encoding:"gbk"}})};

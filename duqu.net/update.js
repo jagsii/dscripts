@@ -1,0 +1,1 @@
+exports=async function(a,b){const{parseUpdate:c}=await require("transcode/parse_update");return c(`http://www.duqu.net/book/${a}/`,/<td width="36%">最后更新：\s*(?<updateTime>[^<>]+)\s*<\/td>[\W\w]+<div class="divbox">\s*<h3><a href="[^"]+">\s*(?<name>[^<>]+)\s*<\/a><\/h3>/,{clientOptions:{...(b&&b.clientOptions),"x-mobile":0},format:"yyyy-MM-dd"})};

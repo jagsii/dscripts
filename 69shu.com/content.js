@@ -1,0 +1,1 @@
+exports=async function(a,b,c,d){const{parseContent:e}=await require("transcode/parse_content");return e(a,/<div class="txtnav">\s*<h1[^>]*>[^<]+<\/h1>(\s*<div class="txtinfo[^>]*>.+<\/div>)?(\s*<div id="txtright">\s*<script>[^<]+<\/script>\s*<\/div>)?(?<fragment>(?:[^<]|<br ?\/?>)+)/,{clientOptions:{...(d&&d.clientOptions),encoding:"gbk"}})};

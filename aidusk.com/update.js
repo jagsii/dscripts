@@ -1,0 +1,1 @@
+exports=async function(a,b){const{parseUpdate:c}=await require("transcode/parse_update");return c(`http://m.aidusk.com/${a}/`,"meta",{clientOptions:{...(b&&b.clientOptions)},format:"yyyy-MM-ddTHH:mm:ss"})};

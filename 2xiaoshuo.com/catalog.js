@@ -1,0 +1,1 @@
+exports=async function(a,b){const{parseCatalog:c}=await require("transcode/parse_catalog");return c(`http://www.2xiaoshuo.com/books/${a}/`,[/<ul id="ul_all_chapters">(?<fragment>(?:\s*<li>\s*<a[^>]*>[^<]*<\/a>\s*<\/li>)+)/,/<a href="(?<url>[^"]+)"[^>]*>(?<name>[^<]+)</g],{clientOptions:{...(b&&b.clientOptions)}})};

@@ -1,0 +1,1 @@
+exports=async function(a,b){const{parseUpdate:c}=await require("transcode/parse_update");return c(`http://www.zzzcn.com/3zinfo-${a}/`,"meta",{clientOptions:{...(b&&b.clientOptions),encoding:"gbk"}}).then(a=>(a.name=a.name.replace("\u7AE0\u8282\u76EE\u5F55","").trim(),a))};

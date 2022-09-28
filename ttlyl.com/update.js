@@ -1,0 +1,1 @@
+exports=async function(a,b){const{parseUpdate:c}=await require("transcode/parse_update");return c(`https://www.ttlyl.cc/mh/${a}.html`,[/更新时间：(?<updateTime>[^<]*)</,/play\/\d+-\d+-\d+\.html" title="[^"]*" target="_blank">(?<name>[^<]+)<\/a><\/li>\s*<\/ul>/],{clientOptions:{...(b&&b.clientOptions),encoding:"utf-8","x-mobile":0}})};

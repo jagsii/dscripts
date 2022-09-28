@@ -1,0 +1,1 @@
+exports=async function(a,b){const{parseCatalog:c}=await require("transcode/parse_catalog");return c(`https://www.hjwxs.com/index/${a}`,[/<dl class="index">(?<fragment>(?:\s*<dd[^>]*>\s*<a[^>]*>[^<]*<\/a>\s*<\/dd>)+)/,/<a href="(?<url>[^"]+)"[^>]*>(?<name>[^<]+)</g],{clientOptions:{...(b&&b.clientOptions)}})};

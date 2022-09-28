@@ -1,0 +1,1 @@
+exports=async function(a,b){const{parseInfo:c}=await require("transcode/parse_info");return c("\u6613\u8BFB\u4E2D\u6587",`https://www.ebookchina.com/book/${a}/`,"meta",{clientOptions:{...(b&&b.clientOptions),"x-mobile":0}}).then(a=>(a.cover=a.cover.replace(/https:?\/\/area51\.mitecdn\.com/,"/assets/avatar"),a))};

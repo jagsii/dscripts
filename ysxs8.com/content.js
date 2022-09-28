@@ -1,0 +1,1 @@
+exports=async function(a){return {url:a}};

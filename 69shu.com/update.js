@@ -1,0 +1,1 @@
+exports=async function(a,b){const{parseUpdate:c}=await require("transcode/parse_update");return c(`https://www.69shu.com/txt/${a}.htm`,"meta",{clientOptions:{...(b&&b.clientOptions),encoding:"gbk"},format:"yyyy-MM-dd"})};

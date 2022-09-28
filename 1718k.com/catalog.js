@@ -1,0 +1,1 @@
+exports=async function(a,b){const{parseCatalog:c}=await require("transcode/parse_catalog"),d=`https://www.1718k.com/files/article/html/${a.idPrefix()}/${a}/`;return c(d,[/id="chapterList">(?<fragment>(?:\s*<li>\s*<a[^>]*>[^<]*<\/a>\s*<\/li>)+)/,/<a href="(?<url>[^"]+)">(?<name>[^<]+)</g],{clientOptions:{...(b&&b.clientOptions)}})};

@@ -1,0 +1,1 @@
+exports=async function(a,b){const{parseInfo:c}=await require("transcode/parse_info"),d=`https://m.kenwen.com/cview/${3<a.length?a.substring(0,a.length-3):"0"}/${a}/`;return c("\u5543\u6587\u4E66\u5E93",d,"meta",b)};

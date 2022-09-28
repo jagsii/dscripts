@@ -1,0 +1,1 @@
+exports=async function(a,b){const{parseUpdate:c}=await require("transcode/parse_update"),{redirectCookiesRetry:d}=await require("transcode/utils");return c(`https://www.tianyabook.com/shu/${a}.html`,"meta",{httpOptions:{followRedirects:!1},clientOptions:{...(b&&b.clientOptions),encoding:"gbk"},format:"yyyy-MM-dd HH:mm",retry:d})};

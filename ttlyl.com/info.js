@@ -1,0 +1,1 @@
+exports=async function(a,b){const{parseInfo:c}=await require("transcode/parse_info");return c("\u5929\u5929\u6F2B\u753B\u7F51",`https://www.ttlyl.cc/mh/${a}.html`,"meta",{clientOptions:{...(b&&b.clientOptions),encoding:"utf-8","x-mobile":0}})};

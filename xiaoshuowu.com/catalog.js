@@ -1,0 +1,1 @@
+exports=async function(a,b){const{parseCatalog:c}=await require("transcode/parse_catalog"),d=`http://www.xiaoshuowu.com/html/${a.idPrefix()}/${a}/`;return c(d,"jieqi230",{clientOptions:{...(b&&b.clientOptions)}})};

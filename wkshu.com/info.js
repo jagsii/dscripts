@@ -1,0 +1,1 @@
+exports=async function(a,b){const{parseInfo:c}=await require("transcode/parse_info");return c("\u6211\u770B\u4E66",`http://m.wkshu.com/xs_${a}.html`,"meta",{clientOptions:{...(b&&b.clientOptions)}}).then(a=>(a.intro=a.intro.replace(/.+观看小说:/,"").trim(),a))};

@@ -1,0 +1,1 @@
+exports=async function(a,b,c,d){const{parseContentPaginate:e,simpleMerger:f}=await require("transcode/parse_content");return e(a=>`http://www.2xiaoshuo.com/read/${b}/${c}${1===a?"":"_"+a}.html`,"div.content",{clientOptions:{...(d&&d.clientOptions)},hasNextFn:a=>null!=/<a id="next_url" href="\/read\/\d+\/\d+_\d+\.html"/.exec(a),merger:f})};

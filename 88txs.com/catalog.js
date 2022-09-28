@@ -1,0 +1,1 @@
+exports=async function(a,b){const{parseCatalog:c}=await require("transcode/parse_catalog");return c(`http://www.88txs.com/88txs/book/${a}/`,[/<div class="read">(?<fragment>(?:\s*<dl>\s*(?:<dt>\s*<b>[^<]*<\/b>\s*<\/dt>)?(?:\s*<dd[^>]*>\s*<a[^>]*[^<]*<\/a>\s*<\/dd>)*\s*<\/dl>)+)/,/<a[^>]* href="(?<url>[^"]+)"[^>]*>(?<name>[^<]+)/g],{clientOptions:{...(b&&b.clientOptions)}})};

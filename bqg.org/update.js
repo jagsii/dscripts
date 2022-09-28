@@ -1,0 +1,1 @@
+exports=async function(a,b){const{parseUpdate:c}=await require("transcode/parse_update"),d=`https://m.bqg.org/${a.idPrefix()}_${a}/`;return c(d,/>更新：(?<updateTime>[^<]*)<\/p><p>最新：<a href="[^"]*">(?<name>[^<]*)</,{clientOptions:{...(b&&b.clientOptions),encoding:"gbk"}})};

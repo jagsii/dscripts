@@ -1,0 +1,1 @@
+exports=async function(a,b,c,d){const{parseContent:e}=await require("transcode/parse_content");return e(a,"div#content",{clientOptions:{...(d&&d.clientOptions),encoding:"gbk"},preprocess:a=>a.replace(/<div id="content">\s*[^<]+，最快更新<a href="[^"]+">[^<]+<\/a>最新章节！/,"<div id=\"content\">")})};

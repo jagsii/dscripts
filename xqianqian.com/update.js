@@ -1,0 +1,1 @@
+exports=async function(a,b){const{parseUpdate:c}=await require("transcode/parse_update"),d=`https://www.xqianqian.com/${a.idPrefix()}/${a}/`;return c(d,"meta",{clientOptions:{...(b&&b.clientOptions),"x-mobile":0}})};

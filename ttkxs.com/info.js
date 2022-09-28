@@ -1,0 +1,1 @@
+exports=async function(a,b){const{parseInfo:c}=await require("transcode/parse_info");return c("\u5929\u5929\u770B\u5C0F\u8BF4",`https://m.ttkxs.com/xs_${a}.html`,"meta",{clientOptions:{...(b&&b.clientOptions)}}).then(a=>(a.intro=a.intro.replace(/天天看小说免费提供.+欢迎光临\([^\)]+\)观看小说:/,""),a))};

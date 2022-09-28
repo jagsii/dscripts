@@ -1,0 +1,1 @@
+exports=async function(a,b){const{parseCatalog:c}=await require("transcode/parse_catalog"),d=`https://www.lnwow.net/html/book/${a.idPrefix()}/${a}/index.html`;return c(d,[/>章节列表<\/li>\s*(?<fragment>(?:\s*<li>.+<\/li>)+)\s*<\/ul>/,/href="(?<url>[^"]+)"[^>]*>(?<name>[^<]+)/g],{clientOptions:{...(b&&b.clientOptions)}})};

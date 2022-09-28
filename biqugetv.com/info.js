@@ -1,0 +1,1 @@
+exports=async function(a,b){const{parseInfo:c}=await require("transcode/parse_info"),d=`https://m.biqugetv.com/${a.idPrefix()}_${a}/`;return c("\u7B14\u8DA3\u9601TV",d,"block_txt2",{clientOptions:{...(b&&b.clientOptions)}})};

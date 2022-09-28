@@ -1,0 +1,1 @@
+exports=async function(a,b){const{parseUpdate:c}=await require("transcode/parse_update"),d=`http://m.yqzwww.com/xs/${a.idPrefix()}/${a}.htm`;return c(d,"block_txt2",{clientOptions:{...(b&&b.clientOptions),encoding:"gbk"}})};

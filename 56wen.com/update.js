@@ -1,0 +1,1 @@
+exports=async function(a,b){const{parseUpdate:c}=await require("transcode/parse_update");return c(`http://www.56wen.com/txt/${a}.html`,/最新内容章节\s*<\/h2>\s*<\/div>\s*<div class="bd clearfix">\s*<span>\s*<a href="[^"]+" title="[^"]+_(?<name>[^"]+)"/,{clientOptions:{...(b&&b.clientOptions),"x-mobile":0}})};

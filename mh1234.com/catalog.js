@@ -1,0 +1,1 @@
+exports=async function(a,b){const{parseCatalog:c}=await require("transcode/parse_sinmh_catalog");return c(`https://m.zxkai.com/comic/${a}.html`,{clientOptions:{...(b&&b.clientOptions)}})};

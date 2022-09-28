@@ -1,0 +1,1 @@
+exports=async function(a,b,c,d){const{parseContentPaginate:e}=await require("transcode/parse_content");return e(a=>`http://www.ncjy.net/bxwx/${b}/${c}${1===a?"":"_"+a}.html`,"div#content",{clientOptions:{...(d&&d.clientOptions)},hasNextFn:a=>null!=/href="\/bxwx\/\d+\/\d+_\d+\.html">下一页<\/a>/.exec(a)})};

@@ -1,0 +1,1 @@
+exports=async function(a,b){const{parseInfo:c}=await require("transcode/parse_info");return c("\u6F2B\u753B\u732B",`https://www.maofly.com/manga/${a}.html`,"meta",{clientOptions:{...(b&&b.clientOptions),"x-mobile":0}})};

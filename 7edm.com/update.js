@@ -1,0 +1,1 @@
+exports=async function(a,b){const{parseUpdate:c}=await require("transcode/parse_update");return c(`http://www.7edm.com/${a}/`,/>(?<name>[^<]+)<\/a><\/p>\s+<p>更新时间：<font color="#999999">(?<updateTime>[^<]+)</,{clientOptions:{...(b&&b.clientOptions),"x-mobile":0},format:"MM-dd"})};

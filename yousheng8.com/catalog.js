@@ -1,0 +1,1 @@
+exports=async function(a,b){const{parseCatalog:c}=await require("transcode/parse_catalog");return c(`https://www.yousheng8.com/yousheng/${a}/`,[/<div class="listmain">\s*<dl>\s*<dt>[^<]+<\/dt>(?<fragment>(?:\s*<dd>\s*<a[^>]*>[^<]*<\/a>\s*<\/dd>\s)+)/,/<a href\s*="(?<url>[^"]+)">(?<name>[^<]+)/g],{clientOptions:{...(b&&b.clientOptions),encoding:"gbk"}})};

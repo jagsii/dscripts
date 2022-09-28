@@ -1,0 +1,1 @@
+exports=async function(a,b){const{parseInfo:c}=await require("transcode/parse_sinmh_info");return c("\u70ED\u8840\u6F2B\u753B\u7F51",`https://m.rexuemh.com/manhua/${a}/`,{clientOptions:{...(b&&b.clientOptions)}})};

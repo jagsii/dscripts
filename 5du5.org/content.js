@@ -1,0 +1,1 @@
+exports=async function(a,b,c,d){const{parseContent:e}=await require("transcode/parse_content");let f=await e(a,/<div[^>]*id="htmlContent"[^>]*>(?:[^<>]+<a[^>]*>[^<]*<\/a>最新章节！)?(?<fragment>.+?)<\/div>/,{clientOptions:{...(d&&d.clientOptions),encoding:"gbk"}});return f=f.filter(a=>!/^(一秒记住.+，精彩小说无弹窗免费阅读！|吾读(小说)?网.+最快更新.+！)$/.test(a)),f};

@@ -1,0 +1,1 @@
+exports=async function(a,b){const{parseInfo:c}=await require("transcode/parse_info"),d=`https://m.uutxt.com/book/${a.idPrefix()}/${a}/`;return c("\u60A0\u60A0\u4E66\u76DF",d,"meta",{clientOptions:{...(b&&b.clientOptions)}})};

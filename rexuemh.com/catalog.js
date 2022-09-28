@@ -1,0 +1,1 @@
+exports=async function(a,b){const{parseCatalog:c}=await require("transcode/parse_sinmh_catalog");return c(`https://m.rexuemh.com/manhua/${a}/`,{clientOptions:{...(b&&b.clientOptions)}}).then(a=>(a.forEach(a=>a.url=a.url.replace("//m.","//mh.")),a))};

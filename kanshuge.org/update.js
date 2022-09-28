@@ -1,0 +1,1 @@
+exports=async function(a,b){const{parseUpdate:c}=await require("transcode/parse_update");return c(`https://m.kanshuge.org/book/${a}/`,"block_txt2",{clientOptions:{...(b&&b.clientOptions),encoding:"gbk"}})};

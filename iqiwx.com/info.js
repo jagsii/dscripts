@@ -1,0 +1,1 @@
+exports=async function(a,b){const{parseInfo:c}=await require("transcode/parse_info");return c("\u7231\u5947\u6587\u5B66\u7F51",`http://www.aiqiwx.com/book/${a}.html`,"meta",{clientOptions:{"x-mobile":0,encoding:"gbk",...(b&&b.clientOptions)},introRegex:/"description": "(?<intro>[^"]*)/})};

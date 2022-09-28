@@ -1,0 +1,1 @@
+exports=async function(a,b){const{parseInfo:c}=await require("transcode/parse_info");return c("\u5357\u5C71\u4E66\u9662",`https://www.szyangxiao.com/xs${a}.shtml`,/<h1><a[^>]*>(?<name>[^<]+)<\/a><b>小说<\/b><small>(?<author>[^<]*)<[\S\s]+类型属于<[^>]*>[^<]*<\/a>\s*<br>(?<intro>[^<\n]*)/,{clientOptions:{...(b&&b.clientOptions),encoding:"gbk"}})};
