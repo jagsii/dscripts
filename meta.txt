@@ -1,7 +1,7 @@
 ---hashmap
 4f3b321cd46e48060ece38a430da187a5da78a44
 13069c73ce0793077f978498cb041489be0e0a6f
-2592344bcdf3856c557fde28b6178ed7059e33e4
+1dace8b0985a6c493c877ce58e63cfe612c5ed9b
 ---template
 https://cdn.jsdelivr.net/gh/jagsii/dscripts@{version}/{path}.min.js
 ---modules
@@ -17,6 +17,7 @@ https://cdn.jsdelivr.net/gh/jagsii/dscripts@{version}/{path}.min.js
 360xs.com|catalog:1,content:1,info:1,update:1
 3qbook.com|catalog:0,content:0,info:0,update:0
 52dus.net|catalog:1,content:0,info:1,update:1
+555dy.com|catalog:2,content:2,info:2,update:2
 56wen.com|catalog:0,content:0,info:0,update:0
 5du5.org|catalog:0,content:0,info:0,update:0
 67shu.net|catalog:0,content:0,info:0,update:0
@@ -42,6 +43,7 @@ bqg.org|catalog:0,content:0,info:0,update:0
 bshuku.com|catalog:0,content:0,info:0,update:0
 bwsk.com|catalog:0,content:0,info:0,update:0
 cyewx.com|catalog:0,content:0,info:1,update:1
+dadaxs.net|catalog:2,content:2,info:2,update:2
 danmei.org|catalog:0,content:0,info:0,update:0
 ddxs.cc|catalog:1,content:1,info:1,update:1
 ddxs.com|catalog:1,content:1,info:1,update:1
@@ -57,7 +59,7 @@ etingshu.com|catalog:0,content:0,info:0,update:0
 etongxs.com|catalog:0,content:0,info:0,update:0
 hjwxs.com|catalog:0,content:0,info:0,update:0
 ishuyin.com|catalog:0,content:0,info:0,update:0
-jieyues.com|catalog:1,common:1,content:1,info:1,update:1
+jieyues.com|catalog:2,common:1,content:1,info:2,update:2
 jingwuhotel.com|catalog:0,content:0,info:0,update:0
 kanshuge.org|catalog:1,content:1,info:1,update:1
 kenshuzw.com|catalog:0,content:0,info:0,update:0
@@ -72,6 +74,7 @@ manhua39.com|catalog:0,content:1,info:0,update:0
 manhuacat.com|catalog:0,content:0,info:0,update:0
 manhuapi.com|catalog:0,content:1,info:0,update:0
 manmankan.cc|catalog:0,content:0,info:0,update:0
+maquege.com|catalog:2,content:2,info:2,update:2
 mgting.com|catalog:0,content:0,info:0,update:0
 mh1234.com|catalog:1,content:1,info:1,update:1
 mhkan.com|catalog:1,content:1,info:1,update:1
@@ -93,6 +96,7 @@ remenxs.org|catalog:0,content:0,info:0,update:0
 rexuemh.com|catalog:0,content:0,info:0,update:0
 rizhaoxs.com|catalog:0,content:0,info:0,update:0
 runtime|dom:0,index:0
+shuquge.com|catalog:2,content:2,info:2,update:2
 siluke.tv|catalog:0,content:0,info:1,update:1
 szyangxiao.com|catalog:0,content:0,info:0,update:0
 tiantingfm.com|catalog:0,content:0,info:0,update:0
@@ -104,14 +108,14 @@ ting56.com|catalog:0,content:0,info:0,update:0
 ting74.com|catalog:0,content:0,info:0,update:0
 tingshucn.com|catalog:0,content:0,info:0,update:0
 tingzh.com|catalog:0,content:0,info:0,update:0
-transcode|html_tokenizer:0,parse_catalog:1,parse_cctxt_catalog:0,parse_cctxt_content:0,parse_content:1,parse_info:1,parse_sinmh_catalog:1,parse_sinmh_content:0,parse_sinmh_info:1,parse_sinmh_update:1,parse_update:1,recognize:1,utils:0
+transcode|html_tokenizer:2,parse_catalog:2,parse_cctxt_catalog:2,parse_cctxt_content:2,parse_content:2,parse_info:2,parse_sinmh_catalog:2,parse_sinmh_content:2,parse_sinmh_info:2,parse_sinmh_update:2,parse_update:2,recognize:2,utils:2
 trxs.me|catalog:0,content:0,info:0,update:0
 tuhao456.com|catalog:0,content:0,info:0,update:0
 uutxt.com|catalog:0,content:0,info:0,update:0
 vbiquge.com|catalog:0,content:1,info:1,update:1
 vipkanshu.com|catalog:0,content:0,info:0,update:0
 vipzw.com|catalog:0,content:0,info:0,update:0
-webview|reader:2
+webview|home:2,reader:2,search_engine_enhance:2
 wo400.com|catalog:0,content:0,info:0,update:0
 xbiquke.com|catalog:0,content:0,info:0,update:0
 xcmfu.com|catalog:0,content:0,info:0,update:0
@@ -121,6 +125,7 @@ xinqingxiaoshuo.com|catalog:0,content:0,info:0,update:0
 xklxsw.com|catalog:0,content:0,info:0,update:0
 xqianqian.com|catalog:0,content:0,info:0,update:0
 xs98.com|catalog:0,content:0,info:0,update:0
+yetianlian.la|catalog:2,content:2,info:2,update:2
 ymxxs.com|catalog:0,content:0,info:0,update:0
 yousheng8.com|catalog:0,content:0,info:0,update:0
 youshuba.cc|catalog:0,content:0,info:0,update:0
