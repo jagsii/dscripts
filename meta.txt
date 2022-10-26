@@ -3,7 +3,7 @@
 13069c73ce0793077f978498cb041489be0e0a6f
 1dace8b0985a6c493c877ce58e63cfe612c5ed9b
 ---template
-https://cdn.jsdelivr.net/gh/jagsii/dscripts@{version}/{path}.min.js
+{asset_gateway}/dscripts@{version}/{path}.min.js
 ---modules
 101du.net|catalog:0,content:0,info:0,update:0
 123wx.com|catalog:1,content:0,info:1,update:1
