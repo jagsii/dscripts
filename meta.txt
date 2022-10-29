@@ -3,6 +3,7 @@
 13069c73ce0793077f978498cb041489be0e0a6f
 0352e7ad934357f396f57d4e65a614f889d4a1d5
 1dace8b0985a6c493c877ce58e63cfe612c5ed9b
+5631daf9dcc9d7ca51cea7f9770db4eb9ff29b76
 ---template
 {asset_gateway}/dscripts@{version}/{path}.min.js
 ---modules
@@ -84,6 +85,7 @@ miaoshuzhai.net|catalog:0,common:0,content:1,info:0,update:0
 mingrenteahouse.com|catalog:0,content:0,info:0,update:0
 myitit.com|catalog:0,content:0,info:0,update:0
 nfxs.com|catalog:0,content:0,info:0,update:0
+nunuyy.com|catalog:4,content:4,info:4,update:4
 paoshu8.com|catalog:0,content:0,info:0,update:0
 pingshu365.com|catalog:0,content:0,info:0,update:0
 qbxs.com|catalog:0,content:0,info:0,update:0
@@ -109,14 +111,14 @@ ting56.com|catalog:0,content:0,info:0,update:0
 ting74.com|catalog:0,content:0,info:0,update:0
 tingshucn.com|catalog:0,content:0,info:0,update:0
 tingzh.com|catalog:0,content:0,info:0,update:0
-transcode|html_tokenizer:3,parse_catalog:3,parse_cctxt_catalog:3,parse_cctxt_content:3,parse_content:3,parse_info:3,parse_sinmh_catalog:3,parse_sinmh_content:3,parse_sinmh_info:3,parse_sinmh_update:3,parse_update:3,recognize:2,utils:3
+transcode|html_tokenizer:3,parse_catalog:3,parse_cctxt_catalog:3,parse_cctxt_content:3,parse_content:3,parse_info:3,parse_sinmh_catalog:3,parse_sinmh_content:3,parse_sinmh_info:3,parse_sinmh_update:3,parse_update:3,recognize:4,utils:3
 trxs.me|catalog:0,content:0,info:0,update:0
 tuhao456.com|catalog:0,content:0,info:0,update:0
 uutxt.com|catalog:0,content:0,info:0,update:0
 vbiquge.com|catalog:0,content:1,info:1,update:1
 vipkanshu.com|catalog:0,content:0,info:0,update:0
 vipzw.com|catalog:0,content:0,info:0,update:0
-webview|home:2,reader:3,search_engine_enhance:2
+webview|home:4,reader:3,search_engine_enhance:4
 wo400.com|catalog:0,content:0,info:0,update:0
 xbiquke.com|catalog:0,content:0,info:0,update:0
 xcmfu.com|catalog:0,content:0,info:0,update:0
