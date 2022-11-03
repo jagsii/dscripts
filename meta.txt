@@ -3,6 +3,7 @@
 4f3b321cd46e48060ece38a430da187a5da78a44
 0c3edb490b14586ae847ecc5a8ff97e48b52d194
 1dace8b0985a6c493c877ce58e63cfe612c5ed9b
+5d9ac6c55bb5de43e41a382025c2b8f0f836f520
 5631daf9dcc9d7ca51cea7f9770db4eb9ff29b76
 ---template
 {asset_gateway}/dscripts@{version}/{path}.min.js
@@ -142,5 +143,6 @@ runtime|index:1
 third-party|crypto-js:2
 transcode|html_tokenizer:3,parse_catalog:3,parse_cctxt_catalog:3,parse_cctxt_content:3,parse_content:3,parse_info:3,parse_sinmh_catalog:3,parse_sinmh_content:3,parse_sinmh_info:3,parse_sinmh_update:3,parse_update:3,recognize:4,utils:3
 video/555dy.com|catalog:0,content:0,info:0,update:0
+video/iqiyi.com|catalog:4,info:4,update:4
 video/nunuyy.com|catalog:0,content:0,info:0,update:0
-webview|home:0,reader:0,search_engine_enhance:4
+webview|home:4,reader:0,search_engine_enhance:5
