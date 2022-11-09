@@ -1,5 +1,6 @@
 ---hashmap
 137386677367688f864b4e54bb3882d4db549ee1
+053c021689ed07464540331dec6fd7ace94be5c1
 dfaf1e9b813de425e22bb2bc313343d1ec327659
 54750358ef707ccfbaaaa37bfe53cd760f1aae31
 4f3b321cd46e48060ece38a430da187a5da78a44
@@ -67,6 +68,7 @@ book/danmei.org|catalog:0,content:0,info:0,update:0
 book/ddxs.cc|catalog:0,content:0,info:0,update:0
 book/ddxs.com|catalog:0,content:0,info:0,update:0
 book/ddxstxt8.com|catalog:0,content:0,info:0,update:0
+book/dev.com|catalog:1,content:1,info:1,update:1
 book/dingdian6.com|catalog:0,content:0,info:0,update:0
 book/dizishu.com|catalog:0,content:0,info:0,update:0
 book/duqu.net|catalog:0,content:0,info:0,update:0
@@ -131,7 +133,8 @@ book/zwwx.com|catalog:0,content:0,info:0,update:0
 book/zzzcn.com|catalog:0,content:0,info:0,update:0
 comic/7edm.com|catalog:0,content:0,info:0,update:0
 comic/acgzone.net|catalog:0,content:0,info:0,update:0
-comic/dmzj.com|catalog:1,content:1,info:0,update:0
+comic/dev.com|content:1
+comic/dmzj.com|catalog:2,content:2,info:0,update:0
 comic/manhua39.com|catalog:0,content:0,info:0,update:0
 comic/manhuacat.com|catalog:0,content:0,info:0,update:0
 comic/manhuapi.com|catalog:0,content:0,info:0,update:0
@@ -142,12 +145,12 @@ comic/rexuemh.com|catalog:0,content:0,info:0,update:0
 comic/tuhao456.com|catalog:0,content:0,info:0,update:0
 comic/zuimh.com|catalog:0,content:0,info:0,update:0
 jiexi/m1907.top|jiexi:0
-jiexi|routes:2
+jiexi|routes:3
 jiexi/we-vip.com|jiexi:0
-runtime|index:3
-third-party|crypto-js:4
-transcode|html_tokenizer:5,parse_catalog:5,parse_cctxt_catalog:5,parse_cctxt_content:5,parse_content:5,parse_info:5,parse_sinmh_catalog:5,parse_sinmh_content:5,parse_sinmh_info:5,parse_sinmh_update:5,parse_update:5,recognize:6,utils:5
-video/555dy.com|catalog:7,content:1,info:0,update:0
-video/iqiyi.com|catalog:7,info:6,update:6
-video/nunuyy.com|catalog:7,content:0,info:0,update:0
-webview|home:8,reader:0,search_engine_enhance:9
+runtime|index:4
+third-party|crypto-js:5
+transcode|html_tokenizer:6,parse_catalog:6,parse_cctxt_catalog:6,parse_cctxt_content:6,parse_content:6,parse_info:6,parse_sinmh_catalog:6,parse_sinmh_content:6,parse_sinmh_info:6,parse_sinmh_update:6,parse_update:6,recognize:7,utils:6
+video/555dy.com|catalog:8,content:2,info:0,update:0
+video/iqiyi.com|catalog:1,info:7,update:7
+video/nunuyy.com|catalog:8,content:0,info:0,update:0
+webview|home:9,reader:0,search_engine_enhance:10
