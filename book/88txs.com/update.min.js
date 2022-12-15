@@ -1,0 +1,1 @@
+exports=async function(a,b){const{parseUpdate:c}=await require("transcode/parse_update");return c(`http://www.88txs.com/88txs/book/${a}.html`,"meta",{clientOptions:{...(b&&b.clientOptions)}})};
