@@ -13,6 +13,7 @@ dfaf1e9b813de425e22bb2bc313343d1ec327659
 1dace8b0985a6c493c877ce58e63cfe612c5ed9b
 4b008af5e68e8a5015ddb84d668d97417529b69d
 5d9ac6c55bb5de43e41a382025c2b8f0f836f520
+0d4af9f2a8c884a716078fe8a777781f7deefb92
 ---template
 {asset_gateway}/dscripts@{version}/{path}.min.js
 ---modules
@@ -295,4 +296,4 @@ transcode|html_tokenizer:11,parse_catalog:5,parse_cctxt_catalog:5,parse_cctxt_co
 video/555dy.com|catalog:12,content:1,info:0,update:0
 video/iqiyi.com|catalog:9,info:13,update:13
 video/nunuyy.com|catalog:12,content:0,info:0,update:0
-webview|home:5,reader:3,search_engine_enhance:5
+webview|home:14,reader:3,search_engine_enhance:5
