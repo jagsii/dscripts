@@ -1,0 +1,1 @@
+exports=async function(a,b,c,d){const{parseContent:e}=await require("transcode/parse_cctxt_content");return e(a,b,c,{clientOptions:{...(d&&d.clientOptions),encoding:"gbk"}})};
