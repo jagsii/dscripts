@@ -1,0 +1,1 @@
+exports=async function(a,b,c,d){const{parseContent:e}=await require("transcode/parse_content");return e(a,"div#content",{clientOptions:{...(d&&d.clientOptions),encoding:"gbk"},preprocess:a=>a.replace(/<h1>[^<]+<\/h1>|<div class="zboxf"><script>[^<]+<\/script><\/div>/g,"")})};
