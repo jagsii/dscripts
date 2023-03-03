@@ -27,6 +27,7 @@ bb424cef3edd7bd9b911a49f09a041b869c6ac95
 053c021689ed07464540331dec6fd7ace94be5c1
 dfaf1e9b813de425e22bb2bc313343d1ec327659
 1dace8b0985a6c493c877ce58e63cfe612c5ed9b
+f25ae76267083471639c1c792b094422514aa21d
 ---template
 {asset_gateway}/dscripts@{version}/{path}.min.js
 ---modules
@@ -996,4 +997,4 @@ video/555dy.com|catalog:8,content:8,info:3,update:8
 video/iqiyi.com|catalog:8,info:8,update:8
 video/nunuyy.com|catalog:8,content:3,info:8,update:8
 video/xgcartoon.com|catalog:8,content:1,info:1,update:8
-webview|home:8,reader:8,search_engine_enhance:8
+webview|home:28,reader:8,search_engine_enhance:8
