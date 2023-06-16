@@ -14,6 +14,7 @@ a908ad56a030dd57a9024079e110f8186987474e
 0bbb9e72858af9a62f9f316cd0f6b8f6d9cdca15
 206fb43edf0cef0e1816bb3b67fdfe06a483a752
 baae8e29aa15c3a992764aa50db316e75ecc568f
+c53f77eafa99b9cb966fc7266ad7f8492787dd76
 ede0587bf2f7a2624b187e296c0cb9b2834074ef
 f24b1b29c46ee19cdb4cbdbf9279c5895ee647ce
 bb424cef3edd7bd9b911a49f09a041b869c6ac95
@@ -758,14 +759,14 @@ book/shhsedu.com|catalog:0,content:0,info:0,update:0
 book/shinianxs.com|catalog:0,content:0,info:0,update:0
 book/shoubanjiang.com|catalog:0,content:0,info:0,update:0
 book/shouda8.net|catalog:0,content:0,info:0,update:0
-book/shoujixs.net|catalog:0,content:0,info:0,update:0
+book/shoujixs.net|catalog:0,content:0,info:15,update:15
 book/shshaoshi.com|catalog:0,content:0,info:0,update:0
 book/shu05.com|catalog:0,content:0,info:0,update:0
 book/shucw.com|catalog:0,content:0,info:0,update:0
 book/shuhaiju.com|catalog:0,content:0,info:0,update:0
 book/shukeju.net|catalog:0,content:0,info:0,update:0
 book/shukw.com|catalog:0,content:0,info:0,update:0
-book/shulinw.com|catalog:0,content:0,info:0,update:0
+book/shulinw.com|catalog:15,content:15,info:15,update:15
 book/shupengwang.org|catalog:0,content:0,info:0,update:0
 book/shuq.net|catalog:0,content:0,info:0,update:0
 book/shuquge.com|catalog:0,content:0,info:0,update:0
@@ -928,7 +929,7 @@ book/xqianqian.com|catalog:0,content:0,info:0,update:0
 book/xqqxs.com|catalog:0,content:0,info:0,update:0
 book/xqqxs8.net|catalog:0,content:0,info:0,update:0
 book/xquge6.net|catalog:0,content:0,info:0,update:0
-book/xquledu.com|catalog:15,content:15,info:15,update:15
+book/xquledu.com|catalog:16,content:16,info:16,update:16
 book/xs007.com|catalog:0,content:0,info:0,update:0
 book/xs222.tw|catalog:0,content:0,info:0,update:0
 book/xs386.com|catalog:0,content:0,info:0,update:0
@@ -997,7 +998,7 @@ book/yunkange.net|catalog:0,content:0,info:0,update:0
 book/yunxiaoge.net|catalog:0,content:0,info:0,update:0
 book/yunxuange.com|catalog:0,content:0,info:0,update:0
 book/yunxuangexsw.com|catalog:0,content:0,info:0,update:0
-book/yushugu.net|catalog:16,content:16,info:16,update:16
+book/yushugu.net|catalog:17,content:17,info:17,update:17
 book/yuwangshe.net|catalog:0,content:0,info:0,update:0
 book/ywggzy.com|catalog:0,content:0,info:0,update:0
 book/yywenxuan.com|catalog:0,content:0,info:0,update:0
@@ -1067,12 +1068,12 @@ comic/xiuluozw.com|catalog:0,content:0,info:0,update:0
 comic/yiyimanhua.com|catalog:0,content:0,info:0,update:0
 comic/zuimh.com|catalog:0,content:0,info:0,update:0
 jiexi/m1907.top|jiexi:3
-jiexi/nxflv.com|jiexi:17
-jiexi|routes:17
+jiexi/nxflv.com|jiexi:18
+jiexi|routes:18
 jiexi/we-vip.com|jiexi:3
 runtime|index:0
-third-party|crypto-js:17
-transcode|font_map:0,html_tokenizer:0,parse_catalog:0,parse_cctxt_catalog:0,parse_cctxt_content:0,parse_content:0,parse_info:0,parse_sinmh_catalog:0,parse_sinmh_content:0,parse_sinmh_info:0,parse_sinmh_update:0,parse_update:0,pinyin_map:0,recognize:13,utils:0
+third-party|crypto-js:18
+transcode|font_map:0,html_tokenizer:0,parse_catalog:0,parse_cctxt_catalog:0,parse_cctxt_content:0,parse_content:0,parse_info:0,parse_sinmh_catalog:0,parse_sinmh_content:0,parse_sinmh_info:0,parse_sinmh_update:0,parse_update:0,pinyin_map:0,recognize:15,utils:0
 video/028feiyu.com|catalog:0,content:0,info:0,update:0
 video/555dy.com|catalog:0,content:0,info:0,update:0
 video/74fan.com|catalog:0,content:0,info:0,update:0
@@ -1082,4 +1083,4 @@ video/aimeijuapp.com|catalog:0,content:0,info:0,update:0
 video/iqiyi.com|catalog:0,info:0,update:0
 video/nunuyy.com|catalog:0,content:0,info:0,update:0
 video/xgcartoon.com|catalog:0,content:0,info:0,update:0
-webview|home:13,reader:8,search_engine_enhance:13
+webview|home:15,reader:8,search_engine_enhance:15
