@@ -19,6 +19,7 @@ c53f77eafa99b9cb966fc7266ad7f8492787dd76
 ede0587bf2f7a2624b187e296c0cb9b2834074ef
 f24b1b29c46ee19cdb4cbdbf9279c5895ee647ce
 bb424cef3edd7bd9b911a49f09a041b869c6ac95
+54fd4a0fc3172b81b8da5752872672f983142781
 ---template
 {asset_gateway}/dscripts@{version}/{path}.min.js
 ---modules
@@ -1085,4 +1086,4 @@ video/aimeijuapp.com|catalog:0,content:0,info:0,update:0
 video/iqiyi.com|catalog:0,info:0,update:0
 video/nunuyy.com|catalog:0,content:0,info:0,update:0
 video/xgcartoon.com|catalog:0,content:0,info:0,update:0
-webview|home:16,reader:8,search_engine_enhance:16
+webview|home:20,reader:8,search_engine_enhance:16
