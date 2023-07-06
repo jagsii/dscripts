@@ -19,7 +19,7 @@ c53f77eafa99b9cb966fc7266ad7f8492787dd76
 ede0587bf2f7a2624b187e296c0cb9b2834074ef
 f24b1b29c46ee19cdb4cbdbf9279c5895ee647ce
 bb424cef3edd7bd9b911a49f09a041b869c6ac95
-82cceeecbd700d60b02c2e378dc7b3bcd5f402c6
+0f7305967ebbd480fbe0e633addb390c057a1a0e
 ---template
 {asset_gateway}/dscripts@{version}/{path}.min.js
 ---modules
